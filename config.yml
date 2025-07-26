@@ -1,0 +1,152 @@
+---
+submitter:
+  solrs: <%= ENV["SOLRS"] %>
+
+libguides:
+  url: https://lgapi-us.libapps.com/1.2
+  client_id: 867
+  client_secret: <%= ENV['LIBGUIDES_CLIENT_SECRET'] %>
+  select: "+source:(libguides-guide OR libguides-page)"
+
+blogs:
+  url: https://blogs.lib.umich.edu/rss.xml?page=
+  select: "+source:drupal-blog-post"
+
+staff:
+  data: https://cms.lib.umich.edu/api/solr/staff
+  select: "+source:drupal-users"
+  taxonomy:
+  - name: academic_discipline
+    url: https://cms.lib.umich.edu/jsonapi/taxonomy_term/academic_discipline
+  - name: library_expertise
+    url: https://cms.lib.umich.edu/jsonapi/taxonomy_term/library_expertise
+
+  nodes:
+  - name: department
+    url: https://cms.lib.umich.edu/jsonapi/node/department/
+
+  fields:
+  - type: literal
+    args:
+    - source
+    - drupal-users
+  - type: literal
+    args:
+    - bsfield-highly-recommended
+    - 'false'
+  - type: literal
+    args:
+    - ssfield_page_type
+    - 'Staff Directory / People'
+
+  - type: timestamp
+    args:
+    - changed
+    - - changed
+      - timestamp
+
+  - type: value
+    args:
+    - field_make_profile_public
+    - status
+
+  - type: value
+    args:
+    - uid
+    - uid
+
+  - type: value
+    args:
+    - name
+    - ssfield_uniqname
+
+  - type: value
+    args:
+    - field_user_email
+    - email
+
+  - type: value
+    args:
+    - field_user_work_title
+    - job_title
+
+  - type: value
+    args:
+    - field_user_display_name
+    - - title
+      - sort_title
+
+  - type: value
+    args:
+    - field_user_deptid
+    - ssfield_user_department_id
+
+  - type: value
+    args:
+    - field_user_phone
+    - ssfield_phone
+
+  - type: concat
+    args:
+    - name
+    - - id
+      - url
+    - https://www.lib.umich.edu/users/
+
+  - type: taxonomy_name
+    args:
+    - field_user_academic_discipline
+    - taxonomy_name
+    - academic_discipline
+
+  - type: taxonomy_name
+    args:
+    - field_user_library_expertise
+    - - smfield_expertise_term_name
+      - tmfield_expertise_term_name
+    - library_expertise
+
+  - type: taxonomy_tag
+    args:
+    - field_user_academic_discipline
+    - tags
+    - academic_discipline
+
+  - type: taxonomy_keyword
+    args:
+    - field_user_library_expertise
+    - - smfield_expertise_keywords
+      - tmfield_expertise_keywords
+    - library_expertise
+
+  - type: node
+    args:
+    - field_user_department
+    - ssfield_user_department
+    - department
+
+  - type: content
+    args:
+    - - field_user_email
+      - field_user_work_title
+      - field_user_display_name
+      - name
+      - field_user_phone
+    - content
+
+  - type: photo
+    args:
+    - field_user_photo_display
+    - - profile_picture
+      - smfield_picture_url
+    - https://search.lib.umich.edu/photos
+
+  - type: location
+    args:
+    - field_mailing_address
+    - smfield_user_location
+
+  - type: location_json
+    args:
+    - field_mailing_address
+    - smfield_user_location_json
