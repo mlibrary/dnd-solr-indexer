@@ -1,12 +1,20 @@
 module SolrIndexer
   class Reporter
-    PUSH_GATEWAY = "http://pushgateway.prometheus:9091/metrics/job/solr_indexer/instance/production"
+    PUSH_GATEWAY = "http://pushgateway.prometheus:9091/metrics/job/solr_indexer"
     def initialize(status)
       @status = status
     end
 
+    def instance
+      "/instance/#{URI(@status[:url]).hostname}"
+    end
+
+    def source
+      "/source/#{@status[:source].gsub(%r{\+source:|\(|\)}, "").gsub(" ", "--")}"
+    end
+
     def labels
-      "{source=\"#{@status[:source]}\", solr=\"#{@status[:url]}\"}"
+      ""
     end
 
     def duration
@@ -53,7 +61,7 @@ module SolrIndexer
       <<~PROM
         # HELP solr_indexer_before Number of documents already in the index matching the source
         # TYPE solr_indexer_before gauge
-        solr_indexer_before#{labels} #{before} 
+        solr_indexer_before#{labels} #{before}
       PROM
     end
 
@@ -89,7 +97,7 @@ module SolrIndexer
         prom_deleted +
         prom_error
       begin
-        Faraday.post(PUSH_GATEWAY, prom, "Content-Type" => "text/plain")
+        Faraday.post(PUSH_GATEWAY + instance + source, prom)
       rescue => e
         puts e.message
         puts prom
