@@ -19,6 +19,7 @@ require_relative "solr_indexer/multi_source_field"
 
 require_relative "solr_indexer/blogs"
 require_relative "solr_indexer/staff"
+require_relative "solr_indexer/reporter"
 require_relative "solr_indexer/submitter"
 
 require_relative "solr_indexer/tag_array"

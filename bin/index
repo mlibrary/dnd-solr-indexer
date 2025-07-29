@@ -9,30 +9,6 @@ config = YAML.load(ERB.new(File.read(File.expand_path(File.join("..", "config.ym
 
 submitter = SolrIndexer::Submitter.new(config["submitter"])
 
-blogs = nil
-staff = nil
-lib_guides = nil
-
-blogs_extract = Benchmark.realtime do
-  blogs = SolrIndexer::Blogs.new(config["blogs"], submitter)
-end
-
-staff_extract = Benchmark.realtime do
-  staff = SolrIndexer::Staff.new(config["staff"], submitter)
-end
-
-lib_guides_extract = Benchmark.realtime do
-  lib_guides = SolrIndexer::LibGuides.new(config["libguides"], submitter)
-end
-
-blogs_submit = Benchmark.realtime do
-  blogs.submit
-end
-
-staff_submit = Benchmark.realtime do
-  staff.submit
-end
-
-lib_guides_submit = Benchmark.realtime do
-  lib_guides.submit
-end
+SolrIndexer::Blogs.new(config["blogs"], submitter).submit
+SolrIndexer::Staff.new(config["staff"], submitter).submit
+SolrIndexer::LibGuides.new(config["libguides"], submitter).submit

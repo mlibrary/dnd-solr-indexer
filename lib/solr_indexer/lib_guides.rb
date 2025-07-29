@@ -1,10 +1,17 @@
 module SolrIndexer
   class LibGuides
-    attr_reader :records, :select, :submitter
+    attr_reader :records, :select, :submitter, :duration, :config
 
     def initialize(config, submitter)
+      @config = config
       @select = config["select"] || "-*:*"
       @submitter = submitter
+      @duration = Benchmark.realtime do
+        fetch_records!
+      end
+    end
+
+    def fetch_records!
       oauth_url = "#{config["url"]}/oauth/token"
       oauth_params = {
         client_id: config["client_id"],
@@ -97,7 +104,7 @@ module SolrIndexer
     end
 
     def submit
-      submitter.submit(records, select)
+      submitter.submit(records, select, duration)
     end
 
     def to_json

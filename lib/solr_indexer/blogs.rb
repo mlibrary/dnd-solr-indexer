@@ -1,17 +1,19 @@
 module SolrIndexer
   class Blogs
-    attr_reader :records, :url, :submitter, :select
+    attr_reader :records, :url, :submitter, :select, :duration
 
     def initialize(config, submitter)
-      @select = config["select"] || "-*:*"
-      @url = config["url"]
-      @records = []
-      @submitter = submitter
-      fetch_records!
+      @duration = Benchmark.realtime do
+        @select = config["select"] || "-*:*"
+        @url = config["url"]
+        @records = []
+        @submitter = submitter
+        fetch_records!
+      end
     end
 
     def submit
-      submitter.submit(records, select)
+      submitter.submit(records, select, duration)
     end
 
     def to_json

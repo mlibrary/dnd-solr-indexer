@@ -1,28 +1,30 @@
 module SolrIndexer
   class Staff
-    attr_reader :select, :submitter
+    attr_reader :select, :submitter, :duration
 
     def initialize(config, submitter)
-      @select = config["select"] || "-*:*"
-      @submitter = submitter
-      @data = JSON.parse(Net::HTTP.get(URI(config["data"])))
+      @duration = Benchmark.realtime do
+        @select = config["select"] || "-*:*"
+        @submitter = submitter
+        @data = JSON.parse(Net::HTTP.get(URI(config["data"])))
 
-      @taxonomy = {}
-      config["taxonomy"].each do |t|
-        @taxonomy[t["name"]] = parse_terms(t["url"])
+        @taxonomy = {}
+        config["taxonomy"].each do |t|
+          @taxonomy[t["name"]] = parse_terms(t["url"])
+        end
+
+        @node = SolrIndexer::Nodes.new
+        config["nodes"].each do |n|
+          @node.register(n["name"], n["url"])
+        end
+
+        @fields = {}
+        load_fields(config["fields"])
       end
-
-      @node = SolrIndexer::Nodes.new
-      config["nodes"].each do |n|
-        @node.register(n["name"], n["url"])
-      end
-
-      @fields = {}
-      load_fields(config["fields"])
     end
 
     def submit
-      submitter.submit(records, select)
+      submitter.submit(records, select, duration)
     end
 
     def load_fields(list)
