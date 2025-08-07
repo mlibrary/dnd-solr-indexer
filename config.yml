@@ -1,4 +1,7 @@
 ---
+# -ssfield_page_type:Website
+# -type:mivideo
+# +ssfield_page_type:[* TO *]
 submitter:
   solrs: <%= ENV["SOLRS"] %>
 
@@ -6,15 +9,28 @@ libguides:
   url: https://lgapi-us.libapps.com/1.2
   client_id: 867
   client_secret: <%= ENV['LIBGUIDES_CLIENT_SECRET'] %>
-  select: "+source:(libguides-guide OR libguides-page)"
+  select: +source:libguides
 
 blogs:
   url: https://blogs.lib.umich.edu/rss.xml?page=
-  select: "+source:drupal-blog-post"
+  select: +source:blogs
+
+microsites:
+  sites: https://sites.lib.umich.edu/wp-json/wp/v2/sites
+  select: +source:microsites
+  names: https://cms.lib.umich.edu/api/solr/staff
+
+online_exhibits:
+  data: data/online-exhibits.xml
+  select: +source:online-exhibits
+
+specialty_sites:
+  data: data/specialty-sites.xml
+  select: +source:manual
 
 staff:
   data: https://cms.lib.umich.edu/api/solr/staff
-  select: "+source:drupal-users"
+  select: +source:staff
   taxonomy:
   - name: academic_discipline
     url: https://cms.lib.umich.edu/jsonapi/taxonomy_term/academic_discipline

@@ -17,8 +17,11 @@ require_relative "solr_indexer/bundle_field"
 require_relative "solr_indexer/prefixed_field"
 require_relative "solr_indexer/multi_source_field"
 
+require_relative "solr_indexer/base"
+require_relative "solr_indexer/xml"
 require_relative "solr_indexer/blogs"
 require_relative "solr_indexer/staff"
+require_relative "solr_indexer/microsites"
 require_relative "solr_indexer/reporter"
 require_relative "solr_indexer/submitter"
 

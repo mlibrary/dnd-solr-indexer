@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<add>
+  <doc>
+    <field name="id">https://sali.lib.umich.edu/dashboard</field>
+    <field name="content">Request an Instruction Session The University Library has a variety of instructional offerings at all levels of research experience and for all subjects. instruction form request instruction workshops instruction session sali</field>
+    <field name="title">Request an Instruction Session</field>
+    <field name="url">https://sali.lib.umich.edu/dashboard</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://sali.lib.umich.edu/dashboard</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">The University Library has a variety of instructional offerings at all levels of research experience and for all subjects.</field>
+    <field name="teaser_stripped">The University Library has a variety of instructional offerings at all levels of research experience and for all subjects.</field>
+    <field name="body">Request an Instruction Session The University Library has a variety of instructional offerings at all levels of research experience and for all subjects. instruction form request instruction workshops instruction session sali</field>
+    <field name="keywords">instruction form request instruction workshops instruction session sali</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://lib.mivideo.it.umich.edu</field>
+    <field name="content">Library MiVideo  mivideo video</field>
+    <field name="title">Library MiVideo</field>
+    <field name="url">https://lib.mivideo.it.umich.edu</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://lib.mivideo.it.umich.edu</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser"></field>
+    <field name="teaser_stripped"></field>
+    <field name="body">Library MiVideo  mivideo video</field>
+    <field name="keywords">mivideo video</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/reflection-rooms</field>
+    <field name="content">Reflection Room Floor Plans Reflection Room locations in library buildings reflection room reflection reflect pray prayer meditate meditation</field>
+    <field name="title">Reflection Room Floor Plans</field>
+    <field name="url">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/reflection-rooms</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/reflection-rooms</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">Reflection Room locations in library buildings</field>
+    <field name="teaser_stripped">Reflection Room locations in library buildings</field>
+    <field name="body">Reflection Room Floor Plans Reflection Room locations in library buildings reflection room reflection reflect pray prayer meditate meditation</field>
+    <field name="keywords">reflection room reflection reflect pray prayer meditate meditation</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/lactation-rooms</field>
+    <field name="content">Lactation Room Floor Plans Lactation Room locations in library buildings lactation room lactation breastfeeding new mothers</field>
+    <field name="title">Lactation Room Floor Plans</field>
+    <field name="url">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/lactation-rooms</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/lactation-rooms</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">Lactation Room locations in library buildings</field>
+    <field name="teaser_stripped">Lactation Room locations in library buildings</field>
+    <field name="body">Lactation Room Floor Plans Lactation Room locations in library buildings lactation room lactation breastfeeding new mothers</field>
+    <field name="keywords">lactation room lactation breastfeeding new mothers</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://www.lib.umich.edu/about-us/about-library</field>
+    <field name="content">About the Library Our mission is to support, enhance, and collaborate in the instructional, research, and service activities of ... mission about</field>
+    <field name="title">About the Library</field>
+    <field name="url">https://www.lib.umich.edu/about-us/about-library</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://www.lib.umich.edu/about-us/about-library</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">Our mission is to support, enhance, and collaborate in the instructional, research, and service activities of ...</field>
+    <field name="teaser_stripped">Our mission is to support, enhance, and collaborate in the instructional, research, and service activities of ...</field>
+    <field name="body">About the Library Our mission is to support, enhance, and collaborate in the instructional, research, and service activities of ... mission about</field>
+    <field name="keywords">mission about</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://www.lib.umich.edu/find-borrow-request/borrow-and-return/where-return-items</field>
+    <field name="content">Return Locations Material return locations for all U-M campuses return a book, bookdrop, book drop, dropbox, drop box</field>
+    <field name="title">Return Locations</field>
+    <field name="url">https://www.lib.umich.edu/find-borrow-request/borrow-and-return/where-return-items</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://www.lib.umich.edu/find-borrow-request/borrow-and-return/where-return-items</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">Material return locations for all U-M campuses</field>
+    <field name="teaser_stripped">Material return locations for all U-M campuses</field>
+    <field name="body">Return Locations Material return locations for all U-M campuses return a book, bookdrop, book drop, dropbox, drop box</field>
+    <field name="keywords">return a book, bookdrop, book drop, dropbox, drop box</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://apps.lib.umich.edu/online-exhibits</field>
+    <field name="content">Online exhibits Explore and discover inspiring collections of art, literature, culture, and history! online exhibits</field>
+    <field name="title">Online exhibits</field>
+    <field name="url">https://apps.lib.umich.edu/online-exhibits</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://apps.lib.umich.edu/online-exhibits</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">Explore and discover inspiring collections of art, literature, culture, and history!</field>
+    <field name="teaser_stripped">Explore and discover inspiring collections of art, literature, culture, and history!</field>
+    <field name="body">Online exhibits Explore and discover inspiring collections of art, literature, culture, and history! online exhibits</field>
+    <field name="keywords">online exhibits</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://www.lib.umich.edu/research-and-scholarship/help-research/find-specialist</field>
+    <field name="content">Subject Specialists Subject specialists offer consultation appointments to learn about the resources and research strategies available to your field</field>
+    <field name="title">Subject Specialists</field>
+    <field name="url">https://www.lib.umich.edu/research-and-scholarship/help-research/find-specialist</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://www.lib.umich.edu/research-and-scholarship/help-research/find-specialist</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">Subject specialists offer consultation appointments to learn about the resources and research strategies available to your field</field>
+    <field name="teaser_stripped">Subject specialists offer consultation appointments to learn about the resources and research strategies available to your field</field>
+    <field name="body">Subject Specialists Subject specialists offer consultation appointments to learn about the resources and research strategies available to your field</field>
+    <field name="keywords"></field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://umich.qualtrics.com/jfe/form/SV_bJkZaJaaCP6w7Hw</field>
+    <field name="content">The Goldilocker Tool - Topic Narrowing Developing a Research Question Developing Research Question Develop a topic that's just right for you</field>
+    <field name="title">The Goldilocker Tool - Develop a topic that's just right for you</field>
+    <field name="url">https://umich.qualtrics.com/jfe/form/SV_bJkZaJaaCP6w7Hw</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://umich.qualtrics.com/jfe/form/SV_bJkZaJaaCP6w7Hw</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">Developing a Research Question</field>
+    <field name="teaser_stripped">Developing a Research Question</field>
+    <field name="body">Digital Learning Objects - Topic Narrowing Developing a Research Question Developing Research Question</field>
+    <field name="keywords">Developing Research Question Goldilocker Tool</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/changing-tables</field>
+    <field name="content">Changing Table Floor Plans Changing table locations in library building restrooms. changing table, changing station, diaper table, baby care, infant care</field>
+    <field name="title">Changing Table Floor Plans</field>
+    <field name="url">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/changing-tables</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/changing-tables</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">Changing table locations in library building restrooms.</field>
+    <field name="teaser_stripped">Changing table locations in library building restrooms.</field>
+    <field name="body">Changing Table Floor Plans Changing table locations in library building restrooms. changing table, changing station, diaper table, baby care, infant care</field>
+    <field name="keywords">changing table, changing station, diaper table, baby care, infant care</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://medicaldictionary.lib.umich.edu/</field>
+    <field name="content">Plain Language Medical Dictionary The Plain Language Medical Dictionary widget is a project of the University of Michigan Taubman Health Sciences Library as part  plain language medical dictionary</field>
+    <field name="title">Plain Language Medical Dictionary</field>
+    <field name="url">https://medicaldictionary.lib.umich.edu/</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://medicaldictionary.lib.umich.edu/</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">The Plain Language Medical Dictionary widget is a project of the University of Michigan Taubman Health Sciences Library as part</field>
+    <field name="teaser_stripped">The Plain Language Medical Dictionary widget is a project of the University of Michigan Taubman Health Sciences Library as part</field>
+    <field name="body">Plain Language Medical Dictionary The Plain Language Medical Dictionary widget is a project of the University of Michigan Taubman Health Sciences Library as part  plain language medical dictionary</field>
+    <field name="keywords">plain language medical dictionary</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://www.lib.umich.edu/collections/collecting-areas/special-collections/joseph-labadie-collection</field>
+    <field name="content">Labadie Collection Finding Aids and Indexes</field>
+    <field name="title">Labadie Collection Finding Aids and Indexes</field>
+    <field name="url">https://www.lib.umich.edu/collections/collecting-areas/special-collections/joseph-labadie-collection</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://www.lib.umich.edu/collections/collecting-areas/special-collections/joseph-labadie-collection</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser"></field>
+    <field name="teaser_stripped"></field>
+    <field name="body">Labadie Collection Finding Aids and Indexes</field>
+    <field name="keywords"></field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+  <doc>
+    <field name="id">https://teamdynamix.umich.edu/TDClient/88/Portal/Portal/Desktop/Desktop?Q=y3twZqQd~tVm3YpDhG4AcbqIv3IL~0FjNwBkVUN3-k6Op9vuhS3kfw__</field>
+    <field name="content">Outages Library Outages keeps you informed of unexpected problems and planned maintenance affecting library services service outages</field>
+    <field name="title">Outages</field>
+    <field name="url">https://teamdynamix.umich.edu/TDClient/88/Portal/Portal/Desktop/Desktop?Q=y3twZqQd~tVm3YpDhG4AcbqIv3IL~0FjNwBkVUN3-k6Op9vuhS3kfw__</field>
+    <field name="important">true</field>
+    <field name="source">manual</field>
+    <field name="path">https://teamdynamix.umich.edu/TDClient/88/Portal/Portal/Desktop/Desktop?Q=y3twZqQd~tVm3YpDhG4AcbqIv3IL~0FjNwBkVUN3-k6Op9vuhS3kfw__</field>
+    <field name="path_alias"></field>
+    <field name="segment">drupal-7.96</field>
+    <field name="site">drupal-index-extras</field>
+    <field name="teaser">Library Outages keeps you informed of unexpected problems and planned maintenance affecting library services</field>
+    <field name="teaser_stripped">Library Outages keeps you informed of unexpected problems and planned maintenance affecting library services</field>
+    <field name="body">Outages Library Outages keeps you informed of unexpected problems and planned maintenance affecting library services service outages</field>
+    <field name="keywords">service outages</field>
+    <field name="status">true</field>
+    <field name="ssfield_page_type">Specialty Sites</field>
+  </doc>
+</add>

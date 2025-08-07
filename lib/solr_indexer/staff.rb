@@ -1,30 +1,25 @@
 module SolrIndexer
-  class Staff
-    attr_reader :select, :submitter, :duration
+  class Staff < Base
+    private
+    def fetch_records!
+      @data = JSON.parse(Net::HTTP.get(URI(config["data"])))
 
-    def initialize(config, submitter)
-      @duration = Benchmark.realtime do
-        @select = config["select"] || "-*:*"
-        @submitter = submitter
-        @data = JSON.parse(Net::HTTP.get(URI(config["data"])))
-
-        @taxonomy = {}
-        config["taxonomy"].each do |t|
-          @taxonomy[t["name"]] = parse_terms(t["url"])
-        end
-
-        @node = SolrIndexer::Nodes.new
-        config["nodes"].each do |n|
-          @node.register(n["name"], n["url"])
-        end
-
-        @fields = {}
-        load_fields(config["fields"])
+      @taxonomy = {}
+      config["taxonomy"].each do |t|
+        @taxonomy[t["name"]] = parse_terms(t["url"])
       end
-    end
 
-    def submit
-      submitter.submit(records, select, duration)
+      @node = SolrIndexer::Nodes.new
+      config["nodes"].each do |n|
+        @node.register(n["name"], n["url"])
+      end
+
+      @fields = {}
+      load_fields(config["fields"])
+
+      @records = @data.map do |record|
+        record_to_hash(record)
+      end
     end
 
     def load_fields(list)
@@ -57,16 +52,6 @@ module SolrIndexer
           end
         end
       end.to_xml
-    end
-
-    def records
-      to_a
-    end
-
-    def to_a
-      @data.map do |record|
-        record_to_hash(record)
-      end
     end
 
     def record_to_hash(record)
@@ -104,11 +89,8 @@ module SolrIndexer
         record.fetch(field.source, []).compact.map { |value| @taxonomy[field.name][value["target_uuid"]]&.name.to_s }.each do |content|
           field.destination.each do |field_name|
             next if content.nil? || content.empty?
-            if result.has_key?(field_name)
-              result[field_name] += " " + content
-            else
-              result[field_name] = content
-            end
+            result[field_name] ||= []
+            result[field_name] << content
           end
         end
       end
@@ -117,11 +99,8 @@ module SolrIndexer
         record.fetch(field.source, []).compact.map { |value| @taxonomy[field.name][value["target_uuid"]]&.name.to_s.downcase.gsub(/[,()]/, "").gsub(/[^a-z'&-.]/, "_").squeeze("_").sub(/_+$/, "") }.each do |content|
           field.destination.each do |field_name|
             next if content.nil? || content.empty?
-            if result.has_key?(field_name)
-              result[field_name] += " " + content
-            else
-              result[field_name] = content
-            end
+            result[field_name] ||= []
+            result[field_name] << content
           end
         end
       end
@@ -332,7 +311,6 @@ module SolrIndexer
       end
     end
 
-    private
     def fetch_terms(url, data = [])
       page = JSON.parse(Net::HTTP.get(URI(url)))
       data += page["data"]

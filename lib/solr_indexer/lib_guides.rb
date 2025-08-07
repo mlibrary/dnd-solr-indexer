@@ -1,15 +1,5 @@
 module SolrIndexer
-  class LibGuides
-    attr_reader :records, :select, :submitter, :duration, :config
-
-    def initialize(config, submitter)
-      @config = config
-      @select = config["select"] || "-*:*"
-      @submitter = submitter
-      @duration = Benchmark.realtime do
-        fetch_records!
-      end
-    end
+  class LibGuides < Base
 
     def fetch_records!
       oauth_url = "#{config["url"]}/oauth/token"
@@ -51,7 +41,7 @@ module SolrIndexer
           type: guide["type_label"],
           title: guide["name"],
           sort_title: guide["name"],
-          source: "libguides-guide",
+          source: "libguides",
           stitle: guide["name"],
           author: guide["owner"]["email"],
           ssfield_author: [guide["owner"]["first_name"], guide["owner"]["last_name"]].join(" "),
@@ -61,7 +51,7 @@ module SolrIndexer
           smfield_academic_discipline: academic_disciplines,
           content: [guide["description"], tags, academic_disciplines, highly_recommended].flatten.join(" ").gsub(%r{\s+}, " ").gsub(%r{\s$}, "").gsub(%r{^\s}, ""),
           og_groups_both: academic_disciplines + highly_recommended,
-          segment: "2.0",
+          segment: "guide",
           ssfield_page_type: "Research Guides"
         }
 
@@ -81,7 +71,7 @@ module SolrIndexer
         guide["pages"].each do |page|
           next if page["enable_display"] == "0"
           p = base.clone
-          p[:source] = "libguides-page"
+          p[:segment] = "page"
           p[:id] = "#{base[:entity_id]}_#{page["id"]}"
           p[:url] = page["friendly_url"] || page["url"]
           p[:ssfield_page_title] =
@@ -101,14 +91,6 @@ module SolrIndexer
         end
       end
       @records = docs + pages
-    end
-
-    def submit
-      submitter.submit(records, select, duration)
-    end
-
-    def to_json
-      records.to_json
     end
   end
 end

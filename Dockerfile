@@ -1,4 +1,4 @@
-FROM ruby:3.4 as base
+FROM ruby:3.4 AS base
 
 ARG UNAME=app
 ARG UID=1000
@@ -20,11 +20,11 @@ RUN mkdir -p ${BUNDLE_PATH} ${APP_HOME} && chown ${UID}:${GID} ${BUNDLE_PATH} ${
 WORKDIR $APP_HOME
 USER $UNAME
 
-FROM base as development
+FROM base AS development
 
 CMD tail -f /dev/null
 
-FROM base as production
+FROM base AS production
 
 COPY --chown=${UID}:${GID} Gemfile Gemfile.lock ${APP_HOME}/
 RUN bundle install

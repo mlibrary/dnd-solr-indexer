@@ -1,23 +1,11 @@
 module SolrIndexer
-  class Blogs
-    attr_reader :records, :url, :submitter, :select, :duration
+  class Blogs < Base
+    attr_reader :url, :blog_urls
 
     def initialize(config, submitter)
-      @duration = Benchmark.realtime do
-        @select = config["select"] || "-*:*"
-        @url = config["url"]
-        @records = []
-        @submitter = submitter
-        fetch_records!
-      end
-    end
-
-    def submit
-      submitter.submit(records, select, duration)
-    end
-
-    def to_json
-      @records.to_json
+      @url = config["url"]
+      @blog_urls = []
+      super
     end
 
     def to_xml
@@ -34,9 +22,14 @@ module SolrIndexer
       end.to_xml
     end
 
-    private
-
     def fetch_records!
+      # fetch_blog_posts! has to run before fetch_blogs! to populate blog_urls
+      fetch_blog_posts!
+      fetch_blogs!
+      fetch_blogs_gateway!
+    end
+
+    def fetch_blog_posts!
       page = 0
       count = 100
       while count == 100
@@ -50,27 +43,80 @@ module SolrIndexer
           link = post.xpath("link").first.content
           description = post.xpath("description").first.content
           content = Nokogiri::HTML5.fragment(description).text
+          blog_url = File.dirname(link)
+          blog_urls << blog_url unless blog_urls.include?(blog_url)
 
           records << {
-            "title" => title,
-            "ssfield_date" => pub_date,
-            "ssfield_author" => creator,
-            "id" => link,
-            "url" => link,
-            "status" => true,
-            "promote" => true,
-            "content" => content,
-            "source" => "drupal-blog-post",
-            "ssfield_page_type" => "Blogs and Blog Posts",
-            "body" => content,
-            "teaser" => content,
-            "type" => "blog_post",
-            "created" => zulutime,
-            "changed" => zulutime
+            title: title,
+            ssfield_date: pub_date,
+            ssfield_author: creator,
+            id: link,
+            url: link,
+            status: true,
+            promote: true,
+            content: content,
+            source: "blogs",
+            ssfield_page_type: "Blogs and Blog Posts",
+            body: content,
+            teaser: content,
+            type: "blog_post",
+            type_name: "Blog Post",
+            created: zulutime,
+            changed: zulutime
           }
         end
         count = posts.count
         page += 1
+      end
+    end
+
+
+
+    def fetch_blogs_gateway!
+      blogs_url = File.dirname(url)
+      response = Faraday.get(blogs_url)
+      doc = Nokogiri::HTML5(response.body)
+      title = doc.xpath("//meta[@property='og:site_name']").first.attr("content").to_s
+      content = doc.xpath("//meta[@property='og:description']").first.attr("content").to_s
+      records << {
+        title: title,
+        id: blogs_url,
+        url: blogs_url,
+        status: true,
+        promote: true,
+        content: content,
+        body: content,
+        teaser: content,
+        important: true,
+        source: "blogs",
+        ssfield_page_type: "Blogs and Blog Posts",
+        type: "blog_gateway",
+        type_name: "Blog Gateway",
+      }
+    end
+
+    def fetch_blogs!
+      blog_urls.each do |blog_url|
+        response = Faraday.get(blog_url)
+        doc = Nokogiri::HTML5(response.body)
+        title = doc.xpath("//meta[@property='og:title']").first.attr("content").to_s
+        content = doc.xpath("//meta[@property='og:description']").first.attr("content").to_s
+
+        records << {
+          title: title,
+          id: blog_url,
+          url: blog_url,
+          status: true,
+          promote: true,
+          body: content,
+          teaser: content,
+          content: content,
+          type: "blog",
+          type_name: "Blog",
+          source: "blogs",
+          important: true,
+          ssfield_page_type: "Blogs and Blog Posts",
+        }
       end
     end
   end
