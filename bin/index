@@ -6,9 +6,11 @@ require "benchmark"
 
 config = YAML.load(ERB.new(File.read(File.expand_path(File.join("..", "config.yml"), __dir__))).result)
 
-
 submitter = SolrIndexer::Submitter.new(config["submitter"])
 
+SolrIndexer::XML.new(config["specialty_sites"], submitter).submit
+SolrIndexer::XML.new(config["online_exhibits"], submitter).submit
 SolrIndexer::Blogs.new(config["blogs"], submitter).submit
 SolrIndexer::Staff.new(config["staff"], submitter).submit
 SolrIndexer::LibGuides.new(config["libguides"], submitter).submit
+SolrIndexer::Microsites.new(config["microsites"], submitter).submit
