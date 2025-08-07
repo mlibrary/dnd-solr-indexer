@@ -104,11 +104,8 @@ module SolrIndexer
         record.fetch(field.source, []).compact.map { |value| @taxonomy[field.name][value["target_uuid"]]&.name.to_s }.each do |content|
           field.destination.each do |field_name|
             next if content.nil? || content.empty?
-            if result.has_key?(field_name)
-              result[field_name] += " " + content
-            else
-              result[field_name] = content
-            end
+            result[field_name] ||= []
+            result[field_name] << content
           end
         end
       end
@@ -117,11 +114,8 @@ module SolrIndexer
         record.fetch(field.source, []).compact.map { |value| @taxonomy[field.name][value["target_uuid"]]&.name.to_s.downcase.gsub(/[,()]/, "").gsub(/[^a-z'&-.]/, "_").squeeze("_").sub(/_+$/, "") }.each do |content|
           field.destination.each do |field_name|
             next if content.nil? || content.empty?
-            if result.has_key?(field_name)
-              result[field_name] += " " + content
-            else
-              result[field_name] = content
-            end
+            result[field_name] ||= []
+            result[field_name] << content
           end
         end
       end
