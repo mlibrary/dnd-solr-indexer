@@ -41,7 +41,7 @@ module SolrIndexer
           zulutime = Time.parse(pub_date).strftime("%Y-%m-%dT%H:%M:%SZ")
           creator = post.xpath("dc:creator").first.content
           link = post.xpath("link").first.content
-          description = post.xpath("description").first.content
+          description = SolrIndexer.strip_html_tags(post.xpath("description").first.content)
           content = Nokogiri::HTML5.fragment(description).text
           blog_url = File.dirname(link)
           blog_urls << blog_url unless blog_urls.include?(blog_url)
@@ -55,7 +55,7 @@ module SolrIndexer
             status: true,
             promote: true,
             content: content,
-            source: "blogs",
+            source: "drupal",
             ssfield_page_type: "Blogs and Blog Posts",
             body: content,
             teaser: content,
@@ -88,7 +88,7 @@ module SolrIndexer
         body: content,
         teaser: content,
         important: true,
-        source: "blogs",
+        source: "drupal",
         ssfield_page_type: "Blogs and Blog Posts",
         type: "blog_gateway",
         type_name: "Blog Gateway",
@@ -113,7 +113,7 @@ module SolrIndexer
           content: content,
           type: "blog",
           type_name: "Blog",
-          source: "blogs",
+          source: "drupal",
           important: true,
           ssfield_page_type: "Blogs and Blog Posts",
         }

@@ -6,7 +6,7 @@
     <field name="title">Request an Instruction Session</field>
     <field name="url">https://sali.lib.umich.edu/dashboard</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://sali.lib.umich.edu/dashboard</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -24,7 +24,7 @@
     <field name="title">Library MiVideo</field>
     <field name="url">https://lib.mivideo.it.umich.edu</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://lib.mivideo.it.umich.edu</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -42,7 +42,7 @@
     <field name="title">Reflection Room Floor Plans</field>
     <field name="url">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/reflection-rooms</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/reflection-rooms</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -60,7 +60,7 @@
     <field name="title">Lactation Room Floor Plans</field>
     <field name="url">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/lactation-rooms</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/lactation-rooms</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -78,7 +78,7 @@
     <field name="title">About the Library</field>
     <field name="url">https://www.lib.umich.edu/about-us/about-library</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://www.lib.umich.edu/about-us/about-library</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -96,7 +96,7 @@
     <field name="title">Return Locations</field>
     <field name="url">https://www.lib.umich.edu/find-borrow-request/borrow-and-return/where-return-items</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://www.lib.umich.edu/find-borrow-request/borrow-and-return/where-return-items</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -114,7 +114,7 @@
     <field name="title">Online exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://apps.lib.umich.edu/online-exhibits</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -132,7 +132,7 @@
     <field name="title">Subject Specialists</field>
     <field name="url">https://www.lib.umich.edu/research-and-scholarship/help-research/find-specialist</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://www.lib.umich.edu/research-and-scholarship/help-research/find-specialist</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -150,7 +150,7 @@
     <field name="title">The Goldilocker Tool - Develop a topic that's just right for you</field>
     <field name="url">https://umich.qualtrics.com/jfe/form/SV_bJkZaJaaCP6w7Hw</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://umich.qualtrics.com/jfe/form/SV_bJkZaJaaCP6w7Hw</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -168,7 +168,7 @@
     <field name="title">Changing Table Floor Plans</field>
     <field name="url">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/changing-tables</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/changing-tables</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -186,7 +186,7 @@
     <field name="title">Plain Language Medical Dictionary</field>
     <field name="url">https://medicaldictionary.lib.umich.edu/</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://medicaldictionary.lib.umich.edu/</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -204,7 +204,7 @@
     <field name="title">Labadie Collection Finding Aids and Indexes</field>
     <field name="url">https://www.lib.umich.edu/collections/collecting-areas/special-collections/joseph-labadie-collection</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://www.lib.umich.edu/collections/collecting-areas/special-collections/joseph-labadie-collection</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>
@@ -222,7 +222,7 @@
     <field name="title">Outages</field>
     <field name="url">https://teamdynamix.umich.edu/TDClient/88/Portal/Portal/Desktop/Desktop?Q=y3twZqQd~tVm3YpDhG4AcbqIv3IL~0FjNwBkVUN3-k6Op9vuhS3kfw__</field>
     <field name="important">true</field>
-    <field name="source">manual</field>
+    <field name="source">drupal</field>
     <field name="path">https://teamdynamix.umich.edu/TDClient/88/Portal/Portal/Desktop/Desktop?Q=y3twZqQd~tVm3YpDhG4AcbqIv3IL~0FjNwBkVUN3-k6Op9vuhS3kfw__</field>
     <field name="path_alias"></field>
     <field name="segment">drupal-7.96</field>

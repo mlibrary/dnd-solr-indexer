@@ -2,6 +2,7 @@ module SolrIndexer
   class Submitter
     def initialize(config)
       @solrs = config["solrs"].map { |solr| RSolr.connect(url: solr) }
+      @delete = config["delete"]
     end
 
     def submit(documents, select, duration)
@@ -44,6 +45,11 @@ module SolrIndexer
               "select",
               params: {q: "#{select} +timestamp:[* TO #{timestamp}]", rows: 0}
             )["response"]["numFound"].to_i
+
+        unless @delete
+          reports << status_report
+          next
+        end
 
         if deleting > 0.2 * before
           status_report[:error] = "Deleting: Trying to delete #{deleting} documents older than 5 minutes, which is more than 20% of the total documents found before submission (#{before}). This is too large to delete automatically."

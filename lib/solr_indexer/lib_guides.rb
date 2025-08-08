@@ -41,7 +41,7 @@ module SolrIndexer
           type: guide["type_label"],
           title: guide["name"],
           sort_title: guide["name"],
-          source: "libguides",
+          source: "libguides-guide",
           stitle: guide["name"],
           author: guide["owner"]["email"],
           ssfield_author: [guide["owner"]["first_name"], guide["owner"]["last_name"]].join(" "),

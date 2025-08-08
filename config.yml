@@ -1,12 +1,13 @@
 ---
 submitter:
   solrs: <%= ENV["SOLRS"] %>
+  delete: false
 
 libguides:
   url: https://lgapi-us.libapps.com/1.2
   client_id: 867
   client_secret: <%= ENV['LIBGUIDES_CLIENT_SECRET'] %>
-  select: +source:libguides
+  select: +source:(libguides-guide OR libguides-page)
 
 blogs:
   url: https://blogs.lib.umich.edu/rss.xml?page=

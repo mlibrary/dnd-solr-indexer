@@ -9,6 +9,18 @@ require "htmlentities"
 require "delegate"
 require "erb"
 
+module SolrIndexer
+  def self.strip_html_tags(text)
+    Nokogiri::HTML(text).tap do |page_content|
+      page_content.css("style").remove
+      page_content.css("script").remove
+    end.css("*").xpath("./text()").map(&:text).join(" ")
+  rescue
+    text
+  end
+end
+
+
 require_relative "solr_indexer/term"
 require_relative "solr_indexer/nodes"
 require_relative "solr_indexer/literal_field"
