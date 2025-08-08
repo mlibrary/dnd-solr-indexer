@@ -1,7 +1,4 @@
 ---
-# -ssfield_page_type:Website
-# -type:mivideo
-# +ssfield_page_type:[* TO *]
 submitter:
   solrs: <%= ENV["SOLRS"] %>
 
