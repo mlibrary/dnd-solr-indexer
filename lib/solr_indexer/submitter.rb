@@ -5,7 +5,7 @@ module SolrIndexer
       @delete = config["delete"]
     end
 
-    def submit(documents, select, duration)
+    def submit(documents, select, segment, duration)
       timestamp = (Time.now - 300).utc.iso8601
       reports = []
       @solrs.each do |solr|
@@ -16,7 +16,7 @@ module SolrIndexer
           deleted: 0,
           error: nil,
           completed_at:  Time.now.to_i,
-          source: select,
+          segment: segment,
           duration: duration
         }
         status_report[:before] =

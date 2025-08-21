@@ -1,34 +1,33 @@
 ---
 submitter:
   solrs: <%= ENV["SOLRS"] %>
-  delete: false
 
 libguides:
   url: https://lgapi-us.libapps.com/1.2
   client_id: 867
   client_secret: <%= ENV['LIBGUIDES_CLIENT_SECRET'] %>
-  select: +source:(libguides-guide OR libguides-page)
+  segment: libguides
 
 blogs:
   url: https://blogs.lib.umich.edu/rss.xml?page=
-  select: +source:blogs
+  segment: blogs
 
 microsites:
   sites: https://sites.lib.umich.edu/wp-json/wp/v2/sites
-  select: +source:microsites
+  segment: microsites
   names: https://cms.lib.umich.edu/api/solr/staff
 
 online_exhibits:
   data: data/online-exhibits.xml
-  select: +source:online-exhibits
+  segment: online-exhibits
 
 specialty_sites:
   data: data/specialty-sites.xml
-  select: +source:manual
+  segment: manual
 
 staff:
   data: https://cms.lib.umich.edu/api/solr/staff
-  select: +source:staff
+  segment: &STAFF_SEGMENT_VALUE staff
   taxonomy:
   - name: academic_discipline
     url: https://cms.lib.umich.edu/jsonapi/taxonomy_term/academic_discipline
@@ -44,10 +43,17 @@ staff:
     args:
     - source
     - drupal-users
+
+  - type: literal
+    args:
+    - segment
+    - *STAFF_SEGMENT_VALUE
+
   - type: literal
     args:
     - bsfield-highly-recommended
     - 'false'
+
   - type: literal
     args:
     - ssfield_page_type
@@ -57,7 +63,7 @@ staff:
     args:
     - changed
     - - changed
-      - timestamp
+#      - timestamp
 
   - type: value
     args:

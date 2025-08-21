@@ -4,7 +4,7 @@ require "bundler/setup"
 require_relative "../lib/solr_indexer"
 require "benchmark"
 
-config = YAML.load(ERB.new(File.read(File.expand_path(File.join("..", "config.yml"), __dir__))).result)
+config = YAML.load(ERB.new(File.read(File.expand_path(File.join("..", "config.yml"), __dir__))).result, aliases: true)
 
 submitter = SolrIndexer::Submitter.new(config["submitter"])
 

@@ -1,10 +1,11 @@
 module SolrIndexer
   class Base
-    attr_reader :config, :records, :submitter, :duration, :select
+    attr_reader :config, :records, :submitter, :duration, :select, :segment
 
     def initialize(config, submitter)
       @config = config
-      @select = config["select"] || "-*:*"
+      @segment = config["segment"] || "default"
+      @select = config["select"] || "+segment:#{@segment}"
       @records = []
       @submitter = submitter
       @duration = Benchmark.realtime do
@@ -13,7 +14,7 @@ module SolrIndexer
     end
 
     def submit
-      submitter.submit(records, select, duration)
+      submitter.submit(records, select, segment, duration)
     end
 
     def to_json

@@ -56,6 +56,7 @@ module SolrIndexer
             promote: true,
             content: content,
             source: "drupal",
+            segment: segment,
             ssfield_page_type: "Blogs and Blog Posts",
             body: content,
             teaser: content,
@@ -89,6 +90,7 @@ module SolrIndexer
         teaser: content,
         important: true,
         source: "drupal",
+        segment: segment,
         ssfield_page_type: "Blogs and Blog Posts",
         type: "blog_gateway",
         type_name: "Blog Gateway",
@@ -114,6 +116,7 @@ module SolrIndexer
           type: "blog",
           type_name: "Blog",
           source: "drupal",
+          segment: segment,
           important: true,
           ssfield_page_type: "Blogs and Blog Posts",
         }

@@ -9,8 +9,8 @@ module SolrIndexer
       "/instance/#{URI(@status[:url]).hostname}"
     end
 
-    def source
-      "/source/#{@status[:source].gsub(%r{\+source:|\(|\)}, "").gsub(" ", "--")}"
+    def segment
+      "/segment/#{@status[:segment].gsub(%r{\+segment:|\(|\)}, "").gsub(" ", "--")}"
     end
 
     def labels
@@ -59,7 +59,7 @@ module SolrIndexer
 
     def prom_before
       <<~PROM
-        # HELP solr_indexer_before Number of documents already in the index matching the source
+        # HELP solr_indexer_before Number of documents already in the index matching the segment
         # TYPE solr_indexer_before gauge
         solr_indexer_before#{labels} #{before}
       PROM
@@ -97,9 +97,10 @@ module SolrIndexer
         prom_deleted +
         prom_error
       begin
-        Faraday.post(PUSH_GATEWAY + instance + source, prom)
+        Faraday.post(PUSH_GATEWAY + instance + segment, prom)
       rescue => e
         puts e.message
+        puts PUSH_GATEWAY + instance + segment
         puts prom
       end
     end

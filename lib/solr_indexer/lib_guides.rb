@@ -42,6 +42,7 @@ module SolrIndexer
           title: guide["name"],
           sort_title: guide["name"],
           source: "libguides-guide",
+          segment: segment,
           stitle: guide["name"],
           author: guide["owner"]["email"],
           ssfield_author: [guide["owner"]["first_name"], guide["owner"]["last_name"]].join(" "),
@@ -51,7 +52,6 @@ module SolrIndexer
           smfield_academic_discipline: academic_disciplines,
           content: [guide["description"], tags, academic_disciplines, highly_recommended].flatten.join(" ").gsub(%r{\s+}, " ").gsub(%r{\s$}, "").gsub(%r{^\s}, ""),
           og_groups_both: academic_disciplines + highly_recommended,
-          segment: "guide",
           ssfield_page_type: "Research Guides"
         }
 
@@ -71,9 +71,9 @@ module SolrIndexer
         guide["pages"].each do |page|
           next if page["enable_display"] == "0"
           p = base.clone
-          p[:segment] = "page"
           p[:id] = "#{base[:entity_id]}_#{page["id"]}"
           p[:url] = page["friendly_url"] || page["url"]
+          p[:source] = "libguides-page"
           p[:ssfield_page_title] =
             p[:tsfield_page_title] = page["name"]
           p[:sort_title] =

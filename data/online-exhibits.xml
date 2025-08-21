@@ -4,6 +4,7 @@
     <field name="content">This is an online version of the exhibit “Translating Homer: from Papyri to Alexander Pope,” which was on display at U-M’s Hatcher Graduate Library from August 9-October 7, 2012.  Based on holdings from the Papyrology Collection and the Special Collections Library, the exhibit  includes a selection of papyri and early printed books illustrating how the Iliad and the Odyssey, two epic poems originally composed in the oral tradition, were first written down, edited, and eventually translated into the main European languages. The original exhibit was part of the LSA Fall 2012 Translation theme semester. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/translating-homer--from-papyri</field>
     <field name="title">Translating Homer</field>
     <field name="og_groups_both">History (General)</field>
@@ -24,6 +25,7 @@ The vision and hard work of Traianos Gagos ensured that this papyrus collection 
 This exhibit introduces the visitor to the work that goes into making a papyrus text understandable. It also showcases the texts from the University of Michigan Papyrus Collection that are used most frequently in teaching and research, along with some recent discoveries.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/from-trace-to-text--highlights</field>
     <field name="title">From Trace to Text: Highlights from the University of Michigan Papyrology Collection</field>
     <field name="og_groups_both">Humanities (General)</field>
@@ -40,6 +42,7 @@ Humans have always traveled, but our reasons for travel have changed and multipl
 Over time, these travels have been catalogued in a variety of ways. This exhibit features items of interesting related to travel and tourism found in the collections of the Clark Library and the University of Michigan Library. Travel records can shed light on the motivations and experiences of those who set out from their homes to make journeys all across the globe. Maps, travel narratives, brochures, and guidebooks are useful both to travelers and outside observers wishing to learn about past trips.  This exhibition examines various types of travel through objects used to record or advertise tourism, pilgrimages, expeditions, and adventures.  This online version of &quot;Travel Through Maps &amp; Narratives: An Exhibition on Travel &amp; Tourism&quot; is the byproduct of a physical exhibit that was featured in the University of Michigan Library Stephen S. Clark Library exhibit space in Fall 2012.  </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/travel-through-maps-and-narrat</field>
     <field name="title">Travel Through Maps &amp; Narratives: An Exhibit on Travel &amp; Tourism</field>
     <field name="og_groups_both">History (General)</field>
@@ -59,6 +62,7 @@ Over time, these travels have been catalogued in a variety of ways. This exhibit
 Reproductive Justice - the right to have children, not to have children, and to parent children in healthy and safe environments -- is a movement and perspective that arose in the 1990s as a broader alternative to reproductive rights advocacy focused on limited debates around abortion and pro-life/pro-choice issues. Articulated and led by women of color with a more encompassing social vision, reproductive justice usually incorporates both a framework of human rights and an awareness of the intersectionality of women’s identities and struggles against sexism, racism, homophobia, and economic marginalization.This exhibit provides a visual narrative of the emergence and antecedents of reproductive justice. Given that women&#039;s lives have never been reducible to one dimension of their reproductive health, this exhibit traces a longer history of reproductive justice, illustrating many experiences, debates, and policies related to pregnancy, birth, contraception, and raising children. Birthing Reproductive Justice also explores the question of who has produced and controlled knowledge about women&#039;s reproductive health and decisions.Installed as a companion to the conference Reproductive Justice: Activists, Advocates, and Academics in Ann Arbor, a Michigan Meeting (May 30-31, 2013), this exhibit showcases materials from the rich and extensive holdings at the Bentley Historical Library, Joseph A. Labadie Collection, Hatcher Graduate Library Special Collections, Taubman Health Sciences Library, and the Law Library. Produced and curated by an inter-campus exhibit team, Birthing Reproductive Justice illustrates the stakes -- of physical health, mental health, human dignity, and community empowerment -- associated with reproductive justice and suggests that research and advocacy can work together.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/reproductive-justice</field>
     <field name="title">Birthing Reproductive Justice: 150 Years of Images and Ideas</field>
     <field name="og_groups_both">Health Sciences</field>
@@ -79,6 +83,7 @@ The goal of our project was to group together sheets with similar characteristic
 Mr. Vignaud&#039;s Maps: Unraveling a Cartographic Mystery from the Golden Age of Dutch Cartography is based on a physical exhibit of the same title, which was on display at the University of Michigan Library (Stephen S. Clark Library). This exhibit features only a portion of the Vignaud Map Collection at the Clark Library.  Additional Vignaud maps can also be found at the William L. Clements Library. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/rediscoveringvignaud</field>
     <field name="title">Mr. Vignaud&amp;#039;s Maps: Unraveling a Cartographic Mystery from the Golden Age of Dutch Cartography</field>
     <field name="og_groups_both">History (General)</field>
@@ -100,6 +105,7 @@ The geography of colorants spans the entire world and is rich with culture and s
 This exhibit is based on and inspired by the thesis: The Geography of Significant Colorants: Antiquity to the Twentieth Century by Melissa Zagorski and Maps from the Stephen S. Clark Library Map Collection.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/the-geography-of-colorants</field>
     <field name="title">The Geography of Colorants</field>
     <field name="og_groups_both">History (General)</field>
@@ -124,6 +130,7 @@ Click on the Credits page to get more information about the original exhibit and
  </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/lgbtheritage</field>
     <field name="title">Michigan&amp;#039;s LGBT Heritage</field>
     <field name="og_groups_both">Gay/Lesbian/Bisexual/Transgender Studies</field>
@@ -140,6 +147,7 @@ Click on the Credits page to get more information about the original exhibit and
 Lynne Avadenka was the 2013 Jill S. Harris Visiting Artist at the Institute for the Humanities, University of Michigan. This exhibit of her books was in conjunction with an exhibit of her artwork  in the Institute&#039;s Gallery curated by Amanda Krugliak.  The two exhibits were presented jointly by the Institute for the Humanities, the Special Collections Library, and the Frankel Center for Judaic Studies.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/avadenka2013</field>
     <field name="title">Language Comes after Artist:  A Selection of Books by Lynne Avadenka</field>
     <field name="og_groups_both">Art and Design</field>
@@ -160,6 +168,7 @@ Today historical postcards give us a fascinating glimpse into the past.  Someti
 </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/leonard-wilike-postcards</field>
     <field name="title">Leonard B. Willeke Postcards</field>
     <field name="og_groups_both">Architecture</field>
@@ -184,6 +193,7 @@ Jan Longone is the Adjunct Curator of the Janice Bluestein Longone Culinary Arch
 Avery Robinson a graduate student in the Frankel Center for Judaic Studies where he is researching Jewish American culinary history for his MA. In 2010, Avery was introduced to the JBLCA and has been researching and volunteering there ever since. If you have any questions about the exhibit, please feel free to contact Avery at averyr@umich.edu.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/jewishfoodways</field>
     <field name="title">American Foodways: The Jewish Contribution</field>
     <field name="og_groups_both">History (General)</field>
@@ -206,6 +216,7 @@ Rights and Permission Statement
 Unless indicated, the book artist holds the copyright for these objects. The University of Michigan Library provides access to these materials for educational and research purposes.  If you decide to use any of these materials, you are responsible for making your own legal assessment and securing any necessary permission or licenses for uses that exceed this license, unless fair use or other exceptions apply to your intended use. Questions or concerns should be directed to Jamie Vander Broek at jlausch@umich.edu.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/aaelartistbooks</field>
     <field name="title">Artist Books from the Women&amp;#039;s Studio Workshop</field>
     <field name="og_groups_both">Art and Design</field>
@@ -222,6 +233,7 @@ Game consoles have undergone many changes over the course of time. Each generati
 We will begin with the first six generations of game consoles, and will look to expanding into the seventh and eighth generations at a later time.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/cvga-disassembled</field>
     <field name="title">CVGA Disassembled</field>
     <field name="og_groups_both">Art and Design</field>
@@ -239,6 +251,7 @@ The portion of the Stephen S. Clark Library’s collection of literary maps dis
 Today, literary maps seem to be making a comeback of sorts by utilizing the tools available on the World Wide Web. Many of these maps are characterized by an interactive user interface and an aspect of crowdsourcing. Libraries, newspapers, and schools are using resources such as Google Maps to allow patrons and students to plot the locations included in famous works of literature. Databases such as “Placing Literature” aggregate information from users who plot the locations described in their favorite novels and allow visitors to the site to explore various parts of the globe through their literature. With tools such as Google Maps and various social media outlets, libraries and other institutions have a great opportunity to create dynamic literary maps for use in schools and by book enthusiasts alike. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/litmaps</field>
     <field name="title">Clark Library Literary Maps</field>
     <field name="og_groups_both">Maps</field>
@@ -256,6 +269,7 @@ Today, literary maps seem to be making a comeback of sorts by utilizing the tool
     <field name="content">This online exhibit, &quot;Engraved in Wood: The Work of John DePol (1913–2004),&quot; serves as an introduction to the incredible wood engravings of this American master. From March 3, 2014 until June 5, 2014, the physical exhibition took place in the then newly renovated 7th Floor exhibit space, Special Collections, Hatcher Graduate Library, U-M Library.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/johndepol</field>
     <field name="title">Engraved in Wood: The Work of John DePol (1913–2004)</field>
     <field name="og_groups_both">Arts</field>
@@ -282,6 +296,7 @@ By the early 18th century “these framings began to merge… this was a manifes
  </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/india-maps</field>
     <field name="title">Maps and Map-making in India</field>
     <field name="og_groups_both">Maps</field>
@@ -302,6 +317,7 @@ By the early 18th century “these framings began to merge… this was a manifes
 In 1966, the World Health Organization (WHO) launched a global campaign to eliminate smallpox, one of the most virulent and feared diseases in human history. Through the combination of intensive vaccination programs, disciplined surveillance methods, ongoing prevention efforts, and effective publicity, the Smallpox Eradication Program aimed to simultaneously educate populations and eliminate the disease. Because India is one of the most populous countries in the world and covers a large geographic area, it presented unique challenges to smallpox eradication.This online exhibit highlights selected documents from a collection of materials donated to the University of Michigan Library by Dr. Lawrence Brilliant, a member of the WHO country team for India. The selected documents illustrate the evolution of the Smallpox Eradication Program in various states of India from 1972 until 1977. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/smallpox-eradication-india</field>
     <field name="title">Smallpox Eradication in India, 1972-1977</field>
     <field name="og_groups_both">History of Medicine</field>
@@ -319,6 +335,7 @@ In 1966, the World Health Organization (WHO) launched a global campaign to elimi
 Below, on your left, is an original watercolor painted by artist Mary Heebner in 2014, drawing inspiration from photographs of two fragments from the University of Michigan Papyrology Collection of what may have once been a book cover, P. Mich. Inv. 4088.  </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/puzzle-me-this--early-binding-</field>
     <field name="title">Puzzle Me This</field>
     <field name="og_groups_both">Humanities (General)</field>
@@ -337,6 +354,7 @@ This exhibit introduces the Altman Archive to the University of Michigan and t
 This exhibit is based substantially on the work and insights of students in Matthew Solomon’s University of Michigan, Winter 2013 Screen Arts &amp; Cultures course 330 “Great Directors: Robert Altman &amp; Orson Welles.” </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/altman</field>
     <field name="title">The Many Hats of Robert Altman: A Life in Cinema</field>
     <field name="og_groups_both">Arts</field>
@@ -351,6 +369,7 @@ This exhibit is based substantially on the work and insights of students in Matt
     <field name="content">This exhibit is the online counterpart of the University of Michigan Library&#039;s exhibit for the 2014 Martin Luther King Symposium, displayed in the Hatcher Library Gallery in January and February 2014.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/history-of-race-at-um</field>
     <field name="title">Michigan&amp;#039;s Story:  The History of Race at U-M</field>
     <field name="og_groups_both">History (General)</field>
@@ -368,6 +387,7 @@ This exhibit is based substantially on the work and insights of students in Matt
 What Makes a Home also has a physical counterpart, which is open for public viewing at the Special Collections area, located in the Art, Architecture, and Engineering Library room B240.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/home</field>
     <field name="title">What Makes a Home</field>
     <field name="og_groups_both">Arts</field>
@@ -383,6 +403,7 @@ What Makes a Home also has a physical counterpart, which is open for public view
 First trademarked in 1897, Jell-O began its rise in popularity with the introduction in 1904 of the prophetic slogan &quot;America&#039;s Most Famous Dessert.&quot; Soon accompanying the slogan was the blonde Jell-O Girl, an icon of the product for almost half a century. As the slogan aspired, Jell-O became both famous and quintessentially American: it is sweet and processed, colorful and slightly fantastical. Advertising for the brand worked hard to appeal to the many Americas, negotiating class and race (with varying success) to suggest versatility. In the period 1904-1929, Jell-O advertising was distinctively characterized by luscious color illustrations of “molded jellies” (what we would know as “gelatin molds”) elaborately decorated and served in equally illustrative settings. Fantastical settings – fairy tales and Arabian nights, domestic settings real and imagined, foreign and American – positioned Jell-O as not only America’s most famous dessert but one that was “at home everywhere.”</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/jell-o</field>
     <field name="title">Jell-O: America’s Most Famous Dessert: At Home Everywhere</field>
     <field name="og_groups_both">American Culture</field>
@@ -402,6 +423,7 @@ This exhibit invites viewers to discover the various ways art and literature, an
  </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/main</field>
     <field name="title">Intersections: Cultures, Identities, Narratives</field>
     <field name="og_groups_both">Arts</field>
@@ -421,6 +443,7 @@ This exhibit invites viewers to discover the various ways art and literature, an
 The video recording of that performance is at the heart of this online exhibit, which in turn describes our Antiphonary manuscript in detail, exploring the career of Benedetto Bordon as an illuminator and woodcut designer in Venice between 1494 and 1528.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/singing-the-antiphonary--mich-</field>
     <field name="title">Singing the Antiphonary</field>
     <field name="og_groups_both">Arts</field>
@@ -442,6 +465,7 @@ England and the United States entered a period of fast-paced innovation in the e
 The changes in the brewing industry reflected the changes in technology. Innovation and creativity kept brewing afloat during Prohibition and that spirit continued to spur new development.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/technology_in_brewing</field>
     <field name="title">The Reflection of Technology in Brewing</field>
     <field name="og_groups_both">History (General)</field>
@@ -460,6 +484,7 @@ The changes in the brewing industry reflected the changes in technology. Innovat
 Great Native American Chiefs gives a brief snapshot of Native American leaders and their campaigns to successfully preserve lands, traditions and customs. Many chiefs and tribes are still present in today’s society throughout the United States and Canada. Native American history has influenced American culture, and has brought rich spiritual and cultural traditions which continue today.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/great-native-american-chiefs</field>
     <field name="title">Great Native American Chiefs</field>
     <field name="og_groups_both">Native American Studies</field>
@@ -472,6 +497,7 @@ Great Native American Chiefs gives a brief snapshot of Native American leaders a
     <field name="content">Now long-established as a classic, translated into more than 170 languages, and continually re-interpreted for new generations of readers, Alice&#039;s Adventures in Wonderland has become a touchstone of childhood in the modern imagination. In celebration of 150 years with Alice, we invite you to explore the curious creatures and landscapes of Wonderland through a selection of Alice editions and other related materials.  </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/curiouser-and-curiouser</field>
     <field name="title">&amp;#039;Curiouser and Curiouser!&amp;#039;: Exploring Wonderland with Alice</field>
     <field name="og_groups_both">Humanities</field>
@@ -488,6 +514,7 @@ Great Native American Chiefs gives a brief snapshot of Native American leaders a
 Most of the titles in this exhibit come from the McMillan Shakespeare Library. Materials are also displayed from the Maurice Browne and Ellen Van Volkenburg Papers, 1772-1983 and the Zelma Weisfeld Archive, 1954-2006. All these books and artifacts are held at the University of Michigan Special Collections Research Center. Additionally, this online exhibit showcases the U-M Wolverine Press students setting the type for a replica of a gathering from the second quarto of Hamlet (1604). Finally, the exhibit ends with a selection of five video clips from films based on Shakespeare&#039;s plays.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/shakespeare-on-page-and-stage-</field>
     <field name="title">Shakespeare on Page and Stage</field>
     <field name="og_groups_both">Arts</field>
@@ -505,6 +532,7 @@ Whether real or imagined, Matsunaga’s books create immersive places and despit
 With this exhibit we hope to overcome some of the obstacles books present using video clips. Kyoko Matsunaga’s books demonstrate this unique art form’s ability to both transcend and utilize traditional book structures to create meaningful and beautiful works of art.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/kyoko-matsunaga</field>
     <field name="title">Layered Places: Artists&amp;#039; Books by Kyoko Matsunaga</field>
     <field name="og_groups_both">Arts</field>
@@ -522,6 +550,7 @@ Using materials from the physical exhibit, this digital exhibit was created by L
 Click on images in the exhibit to see more information, including transcriptions and translations of protest signs and explanations of Chinese slang.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/aboveground</field>
     <field name="title">Above Ground: China&amp;#039;s Young Feminist Activists and Forty Moments of Transformation</field>
     <field name="og_groups_both">Arts</field>
@@ -538,6 +567,7 @@ Click on images in the exhibit to see more information, including transcriptions
 This exhibit was curated by the students in English 313, taught by Professor Adela Pinch, Department of English (apinch@umich.edu) in Winter 2017, with exhibition assistance by Juli McLoone, Outreach Librarian and Curator, Special Collections Research Center (jmcloone@umich.edu) and Sigrid Anderson Cordell, Librarian for English Language and Literature (scordell@umich.edu).</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/jane-austen-bicentennial</field>
     <field name="title">Jane Austen 1817-2017: A Bicentennial Exhibit</field>
     <field name="og_groups_both">Humanities</field>
@@ -552,6 +582,7 @@ This exhibit was curated by the students in English 313, taught by Professor Ade
 The items in this exhibit are from the Special Collections Research Center unless marked otherwise in the caption.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/storied-acquisitions</field>
     <field name="title">Storied Acquisitions: Highlights from the University of Michigan Library Collections</field>
     <field name="og_groups_both">Arts</field>
@@ -568,6 +599,7 @@ The items in this exhibit are from the Special Collections Research Center unles
 To fulfill her mission of making the study of art and culture more accessible to the public, McKnight commissioned the coloring of approximately one-third of the slides. This exhibit focuses on these examples, though the entire collection is available online through the AAEL Lantern Slide Collection database.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/caulfield</field>
     <field name="title">An Artful Life: The Colored Lantern Slides of Anna Caulfield McKnight</field>
     <field name="og_groups_both">Arts</field>
@@ -581,6 +613,7 @@ To fulfill her mission of making the study of art and culture more accessible to
     <field name="content">Stories of the University Library: A Bicentennial Exhibit is a compilation of photographs and news articles that show a few of the stories surrounding the University of Michigan Library and how it has grown throughout the University’s first 200 years.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/library-bicentennial</field>
     <field name="title">Stories of the University Library: A Bicentennial Exhibit</field>
     <field name="og_groups_both">University of Michigan, History, Architecture</field>
@@ -595,6 +628,7 @@ In 1517, Martin Luther, a professor of theology and a monk, published his scathi
 Highlighting manuscripts and early printed books from the Special Collections Research Center, our exhibit Reforming the Word: Martin Luther in Context commemorates the 500th anniversary of this pivotal transformation in world history. This online exhibit accompanies the physical exhibit displayed in the Audubon Room 5 September - 15 November 2017.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/reforming-the-word</field>
     <field name="title">Reforming the Word: Martin Luther in Context</field>
     <field name="og_groups_both">Arts</field>
@@ -610,6 +644,7 @@ Highlighting manuscripts and early printed books from the Special Collections Re
  </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/creating-a-campus</field>
     <field name="title">Creating a Campus: A Cartographic Celebration of U-M&amp;#039;s Bicentennial </field>
     <field name="og_groups_both">Humanities</field>
@@ -630,6 +665,7 @@ This online exhibit accompanies the physical exhibit The Life and Times of Lizzy
 A companion online-only exhibit, Jane Austen 1817-2017: A Bicentennial Exhibit was curated by the students in English 313, taught by Professor Adela Pinch, Department of English (apinch@umich.edu) in Winter 2017. All items featured in this exhibit are from the Special Collections Research Center. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/lizzy-bennet</field>
     <field name="title">The Life and Times of Lizzy Bennet</field>
     <field name="og_groups_both">Arts</field>
@@ -646,6 +682,7 @@ Several of these narratives emerge from oral traditions (Aladdin, Cinderella, Li
 Lisa Makman, Department of English Language and Literature</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/seven-fantasy-classics</field>
     <field name="title">Seven Fantasy Classics for Children</field>
     <field name="og_groups_both">Humanities</field>
@@ -660,6 +697,7 @@ Lisa Makman, Department of English Language and Literature</field>
     <field name="content">In this exhibit, the term &quot;marks&quot; refers to physical elements that have been added to manuscripts and early printed books throughout time, that is, from the instance when they were being made until they arrived to our shelves. Mostly, these marks were not intended by the authors, scribes and printers as they originally envisioned their books, but were later included in the form of corrections, readers&#039; marginalia, drawings, and traces of subsequent ownerships as shown in bookplates and bindings. These marks are extraordinary witnesses offering unique information on various aspects of book history such as production, textual transmission, reception, and provenance history. While this exhibit is based on a close examination of manuscripts and early printed books held at the Special Collections Research Center, its main inspiration is the landmark exhibit catalog, Marks in Books, Illustrated and Explained (Cambridge, Mass.: Houghton Library Publications, 1985) by Roger Stoddard. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/marks-in-books</field>
     <field name="title">Marks in Books</field>
     <field name="og_groups_both">U-M Library Special Collections</field>
@@ -674,6 +712,7 @@ Lisa Makman, Department of English Language and Literature</field>
 Dr. Jason Young, Department of History</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/scrapbook-of-am-history</field>
     <field name="title">Scrapbook of American History: From the Revolution to the Civil War</field>
     <field name="og_groups_both">Humanities</field>
@@ -690,6 +729,7 @@ Dr. Jason Young, Department of History</field>
 With the exception of two codices written on parchment, Mich. Ms. 166 and 167, the artifacts on display are all fragments of various sizes that were once part of different codices (bound books) with their leaves made of papyrus or parchment (animal skin). Aside from two bilingual fragments, written in Coptic and Greek, the rest of the manuscripts in this exhibit are written in the Coptic language, which represents the last stage of the Egyptian language, and whose alphabet was mostly adapted from the Greek alphabet in the 2nd century BCE. In brief, different Coptic dialects (Akhmimic, Lycopolitan, Mesokemic, Fayyumic, Sahidic, and Bohairic) were used by these early Christian communities not only for ordinary worship but also for the written transmission of the Bible and other religious works. This laborious task of the early difussion of Christian texts is well exemplified by one of the highlights of our display: The works of Shenoute of Atripe (ca. 347-466). The extant manuscript fragments with works by Shenoute  held at the University of Michigan were all copied at the White Monastery, which was located just outside the town of Atripe (now the city of Sohag, Egypt).</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/coptic-manuscripts</field>
     <field name="title">Written Culture of Christian Egypt: Coptic Manuscripts from the University of Michigan Collection</field>
     <field name="og_groups_both">U-M Library Exhibits</field>
@@ -701,6 +741,7 @@ With the exception of two codices written on parchment, Mich. Ms. 166 and 167, t
     <field name="content">A dramatic surge in images of clothing appeared in European books, journals, and prints from the 1780s through the 1870s. As a dedicated fashion press emerged by 1800, so did expectations about what people chose to wear: trends depicted in widely-circulated fashion plates began to dictate the pace at which clothing should be updated. But the early nineteenth century also witnessed a rising interest in traditional clothing not subject to fashion’s rapid changes. These types of clothes became subsumed in the category of “costume.” The period’s prolific illustrated press documented costumes worn in rural regions of Europe or far-flung parts of the world. Such images contributed to perceived divisions between those who participated in fashion and those who did not. In so doing, these images complemented contemporary beliefs that progress and modernity were inherently metropolitan, Western phenomena.The exhibition traces these contrasting ideas about clothing as fashion and as costume (as well as hybrids of the two) across visual representations ranging from fashion plates to caricatures, and from journals associated with clothing production, to encyclopedic volumes on historic dress and world costume. The objects included have been drawn from the Special Collections Research Center and as loans from the private collection of Dr. James Ravin. Throughout the exhibit, each curator&#039;s work is attributed through the use of her initials.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/divide-and-clothe</field>
     <field name="title">Divide &amp; Clothe: Illustrating Fashion in Nineteenth-Century Europe</field>
     <field name="og_groups_both">Arts, fashion, Humanities, U-M Library Special Collections</field>
@@ -714,6 +755,7 @@ With the exception of two codices written on parchment, Mich. Ms. 166 and 167, t
 Estrella Salgado, Michigan Library Scholar 2019</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/the-career-of-rama</field>
     <field name="title">The Career of Rama: An Epic Journey Through South and Southeast Asia</field>
     <field name="og_groups_both">Humanities</field>
@@ -734,6 +776,7 @@ Each piece is finished and mounted on aluminum using automotive manufacturing te
 The project celebrates the library&#039;s deep and broad collections, the library&#039;s contributions to knowledge creation and sharing, and academic and regional community members. The process served as a community-building experience for people of all ages, backgrounds, skill levels, locations, languages, and experience levels to join together in co-creation.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/connect-the-dots</field>
     <field name="title">Connect the Dots: Collective Interpretations of the U-M Library Collections</field>
     <field name="og_groups_both">Arts and Humanities</field>
@@ -748,6 +791,7 @@ Animals offer powerful points of identification for child readers. Qualities ass
 --Lisa Makman, Department of English Language and Literature</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/animaltales</field>
     <field name="title">A Menagerie of Animal Tales</field>
     <field name="og_groups_both">Children&amp;#039;s Literature</field>
@@ -761,6 +805,7 @@ Animals offer powerful points of identification for child readers. Qualities ass
 </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/sacred-hands</field>
     <field name="title">Sacred Hands</field>
     <field name="og_groups_both">U-M Library Exhibits</field>
@@ -772,6 +817,7 @@ Animals offer powerful points of identification for child readers. Qualities ass
     <field name="content">Elections and the candidate debates that precede them are lauded as a time-honored tradition of American democracy, allowing for the free and open exchange of ideas and the ability of the public to have a voice in our governance. Yet many public voices have repeatedly questioned the efficacy of voting as a true expression of freedom and democracy, and the legitimacy of official debates to represent the full range of viewpoints beyond the established political party platforms. This exhibit provides an introductory glimpse at some of the marginalized and dissident voices that have spoken up over the years—those who have taken a critical stance on the state of democractic governance and questioned the ability of the general public to truly impact the functions of the state.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/debatedemocracy</field>
     <field name="title">What Debate? What Democracy? Expanding the Terms of Public Discourse</field>
     <field name="og_groups_both">Government, Politics and Law</field>
@@ -787,6 +833,7 @@ This exhibit coincides with the 500th anniversary of the arrival of the first Sp
 The items selected for this exhibition represent cultural perspectives from a specific place or time. Some of the items contain culturally sensitive or racist material and may be considered offensive or objectionable to some audiences. This content is not provided as an endorsement from the library but offered to allow space for our community to confront challenging histories through scholarship and discussion. Please use your discretion while exploring this site. Individual pages that contain culturally sensitive or racist materials will also be labeled.    </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/translation-memory</field>
     <field name="title">Translation and Memory: The Literary Worlds of the Spanish Philippines</field>
     <field name="og_groups_both">Humanities</field>
@@ -799,6 +846,7 @@ The items selected for this exhibition represent cultural perspectives from a sp
     <field name="content">Expelled from Spain in 1492 and from Portugal in 1497, the Sephardic Jews took with them their unique language called Ladino, also refered to as Judeo-Spanish, Judesmo, or Sephardi. Today, this language is a combination of archaic form of Castilian Spanish that contains elements of Hebrew, Aramaic, Arabic, Turkish, Greek, French, Portuguese, Bulgarian, and Italian. The population of Ladino speakers is so small that Ladino is a UNESCO endangered language. Although few people today speak Ladino, the importance of the language to the Sephardic culture is apparent in the preservation of the music since the time of the expulsion. Artists like Flory Jagoda, Alberto Hemsi, and Judy Frankel are just a few of the artists who dedicated their lives to preserving the oral traditions of the Sephardic communities by writing down and recording their songs and stories. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/ladino-music</field>
     <field name="title">Ladino Music Today as a Tool of Storytelling and Preservation</field>
     <field name="og_groups_both">Arts</field>
@@ -815,6 +863,7 @@ This exhibit features many names for whom the native spelling does not use the R
 Russian names, on the other hand, are transliterated to their English counterparts; for example, the Russian name Александр is written “Alexander” rather than its more direct transliteration, “Aleksandr.” This is done primarily for familiarity and ease of reading, as we expect most of our audience to be more familiar with the Anglicized names. As for Turkish names, the specific resource used for Ottoman Turkish transliteration used was Pashas, Begs, and Effendis: A Historical Dictionary of Titles and Terms in the Ottoman Empire by Gustav Bayerle. For most personal names of Ottoman Turkish origin, the most popular English transliterations were used. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/200th-anniversary-greek-war</field>
     <field name="title">&amp;#039;That Greece Might Still Be Free&amp;#039;: Commemorating the Bicentennial of the Greek War of Independence from an International Perspective</field>
     <field name="og_groups_both">Humanities</field>
@@ -831,6 +880,7 @@ This virtual exhibit was organized by the University of Michigan Library and the
 Items selected for the exhibit represent only a small portion of the archival resources of the Bentley Historical Library, the Ann Arbor News, the Ann Arbor District Library, and the University of Michigan Library collection. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/history-of-the-william-monroe-</field>
     <field name="title">History of the William Monroe Trotter Multicultural Center At The University of Michigan</field>
     <field name="og_groups_both">Humanities</field>
@@ -851,6 +901,7 @@ While many of our manuscripts indeed contain the text of the New Testament in va
 This exhibit also celebrates two recent publications based on this collection: Nadezhda Kavrus-Hoffmann, Catalogue of Greek Manuscripts at the University of Michigan, Ann Arbor. Vol. 1. Ann Arbor: University of Michigan Press, 2021; and Julia Miller, Tradition and Individuality: Bindings from the University of Michigan Greek Manuscript Collection. Ann Arbor: The Legacy Press, 2021.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/greek-manuscripts-at-the-unive</field>
     <field name="title">Greek Manuscripts at the University of Michigan Library: A Celebration</field>
     <field name="og_groups_both">Arts</field>
@@ -866,6 +917,7 @@ This exhibit also celebrates two recent publications based on this collection: N
 Inspired by the mail art project created through the non-profit Printed Matter, the University of Michigan Library partnered with the Ann Arbor District Library in 2020 to solicit a call for mail art. Librarians at U-M and AADL saw this call as a way for their communities to connect from afar during the early and difficult days of the COVID-19 pandemic.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/mailart</field>
     <field name="title">Signed, Sealed, Delivered: Connecting from afar and going through it together with mail art</field>
     <field name="og_groups_both">Arts</field>
@@ -881,6 +933,7 @@ The Code of Presence: Belarusian Protest Embroideries and Textile Patterns is th
 The exhibition is organized in three sections: Craftivist strategies of Belarusian protest embroidery, Collective embroidery practices, and Traditional textile patterns in mixed media. Its aims include articulating protest messages, documenting the events of the revolution, processing news and emotions collectively, embracing traditional folk culture in the midst of social upheavals, and reflecting on the realities of life under authoritarian regimes. The latter category encompasses a variety of social and gender experiences, including those of women. Curatorial selections span the experiences of millennials and Generation Z across geographical boundaries and reflect the recent migrations of endangered cultural workers and artists from Belarus. This is the first time this group of artists is featured in a digital exhibition dedicated exclusively to textile art. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/code-presence</field>
     <field name="title"> The Code of Presence: Belarusian Protest Embroideries and Textile Patterns</field>
     <field name="og_groups_both">Arts</field>
@@ -896,6 +949,7 @@ This exhibit contains culturally sensitive or racist content and may be consider
 </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/greco-turkish-war</field>
     <field name="title">Nation Building and the Lives It Changed Forever: A Reflection on the 100th Anniversary of the Greco-Turkish War</field>
     <field name="og_groups_both">Student and Faculty Exhibits</field>
@@ -910,6 +964,7 @@ Open this exhibit as one opens a book to discover what title pages reveal. 
 Note: The items selected for this exhibition represent cultural perspectives from a specific place or time. Some of the items contain culturally sensitive or racist material and may be considered offensive or objectionable to some audiences. This content is not provided as an endorsement from the library but offered to allow space for our community to confront challenging histories through scholarship and discussion. Please use your discretion while exploring this site. Individual pages that contain culturally sensitive or racist materials will also be labeled.</field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/openings</field>
     <field name="title">Openings: Title Pages in the History of Printed Books</field>
     <field name="og_groups_both">Humanities</field>
@@ -929,6 +984,7 @@ This exhibit features objects sourced from libraries, personal photos, and socia
 Note: The items selected for this exhibition represent cultural perspectives from a specific place or time. Some of the items contain culturally sensitive or racist material and may be considered offensive or objectionable to some audiences. This content is not provided as an endorsement from the library but offered to allow space for our community to confront challenging histories through scholarship and discussion. Please use your discretion while exploring this site. </field>
     <field name="status">1</field>
     <field name="source">drupal</field>
+    <field name="segment">online-exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits/exhibits/show/iraqi-artists</field>
     <field name="title">Tracing Iraqi Artists: From Shadow to Light</field>
     <field name="og_groups_both">Arts</field>

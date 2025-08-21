@@ -18,6 +18,7 @@ module SolrIndexer
           teaser: record["description"],
           content: record["name"] + " " + record["description"],
           source: "drupal",
+          segment: segment,
           ssfield_page_type: "Specialty Sites",
           status: true,
         }
@@ -40,6 +41,7 @@ module SolrIndexer
               teaser: SolrIndexer.strip_html_tags(container["excerpt"]["rendered"]),
               content: SolrIndexer.strip_html_tags(container["content"]["rendered"]),
               source: "drupal",
+              segment: segment,
               ssfield_page_type: "Specialty Sites",
               status: true,
               type: type,
