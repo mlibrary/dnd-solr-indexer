@@ -18,7 +18,7 @@ microsites:
   names: https://cms.lib.umich.edu/api/solr/staff
 
 online_exhibits:
-  data: data/online-exhibits.xml
+  url: https://apps.lib.umich.edu/online-exhibits/exhibit-metadata.json
   segment: online-exhibits
 
 specialty_sites:

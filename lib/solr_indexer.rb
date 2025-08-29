@@ -34,6 +34,7 @@ require_relative "solr_indexer/xml"
 require_relative "solr_indexer/blogs"
 require_relative "solr_indexer/staff"
 require_relative "solr_indexer/microsites"
+require_relative "solr_indexer/online_exhibits"
 require_relative "solr_indexer/reporter"
 require_relative "solr_indexer/submitter"
 

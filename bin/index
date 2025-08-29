@@ -9,7 +9,7 @@ config = YAML.load(ERB.new(File.read(File.expand_path(File.join("..", "config.ym
 submitter = SolrIndexer::Submitter.new(config["submitter"])
 
 SolrIndexer::XML.new(config["specialty_sites"], submitter).submit
-SolrIndexer::XML.new(config["online_exhibits"], submitter).submit
+SolrIndexer::OnlineExhibits.new(config["online_exhibits"], submitter).submit
 SolrIndexer::Blogs.new(config["blogs"], submitter).submit
 SolrIndexer::Staff.new(config["staff"], submitter).submit
 SolrIndexer::LibGuides.new(config["libguides"], submitter).submit
