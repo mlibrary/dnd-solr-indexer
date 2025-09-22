@@ -35,6 +35,7 @@ module SolrIndexer
         base_id = (guide["friendly_url"] && guide["friendly_url"].length > 0) ? guide["friendly_url"] : guide["url"]
         base = {
           id: base_id,
+          url: base_id,
           entity_id: guide["id"],
           body: guide["description"],
           tags: tags + subjects,
