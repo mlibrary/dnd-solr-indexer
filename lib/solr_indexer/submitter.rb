@@ -3,6 +3,7 @@ module SolrIndexer
     def initialize(config)
       @solrs = config["solrs"].map { |solr| RSolr.connect(url: solr) }
       @delete = config["delete"]
+      @delete_threshold = (config["delete"] || 0.2).to_f
     end
 
     def submit(documents, select, segment, duration)
@@ -51,8 +52,8 @@ module SolrIndexer
           next
         end
 
-        if deleting > 0.2 * before
-          status_report[:error] = "Deleting: Trying to delete #{deleting} documents older than 5 minutes, which is more than 20% of the total documents found before submission (#{before}). This is too large to delete automatically."
+        if deleting > @delete_threshold * before
+          status_report[:error] = "Deleting: Trying to delete #{deleting} documents older than 5 minutes, which is more than #{(@delete_threshold * 100).to_i})% of the total documents found before submission (#{before}). This is too large to delete automatically."
           reports << status_report
           next
         end

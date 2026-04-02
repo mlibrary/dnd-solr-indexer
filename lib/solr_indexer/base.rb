@@ -7,7 +7,7 @@ module SolrIndexer
       @segment = config["segment"] || "default"
       @select = config["select"] || "+segment:#{@segment}"
       @records = []
-      @submitter = submitter
+      @submitter = submitter[config["submitter"] || 'tidy']
       @duration = Benchmark.realtime do
         fetch_records!
       end

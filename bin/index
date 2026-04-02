@@ -6,7 +6,11 @@ require "benchmark"
 
 config = YAML.load(ERB.new(File.read(File.expand_path(File.join("..", "config.yml"), __dir__))).result, aliases: true)
 
-submitter = SolrIndexer::Submitter.new(config["submitter"])
+submitter = {
+  "messy" => SolrIndexer::Submitter.new(config["submitter"]),
+  "tidy"  => SolrIndexer::Submitter.new(config["submitter"].merge("delete" => 0.2)),
+  "complete" => SolrIndexer::Submitter.new(config["submitter"].merge("delete" => 1.1)),
+}
 
 SolrIndexer::XML.new(config["specialty_sites"], submitter).submit
 SolrIndexer::OnlineExhibits.new(config["online_exhibits"], submitter).submit
