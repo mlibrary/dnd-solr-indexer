@@ -16,7 +16,7 @@ module SolrIndexer
           updated: documents.length,
           deleted: 0,
           error: nil,
-          completed_at:  Time.now.to_i,
+          completed_at: Time.now.to_i,
           segment: segment,
           duration: duration
         }

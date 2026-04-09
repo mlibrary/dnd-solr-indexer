@@ -18,7 +18,7 @@ module SolrIndexer
     end
 
     def duration
-       @status[:duration]
+      @status[:duration]
     end
 
     def completed_at

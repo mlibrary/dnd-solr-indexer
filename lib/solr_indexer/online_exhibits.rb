@@ -15,7 +15,7 @@ module SolrIndexer
           ssfield_page_type: "Online Exhibits"
         }
       end
-    rescue StandardError => e
+    rescue => e
       puts e.inspect
     end
   end

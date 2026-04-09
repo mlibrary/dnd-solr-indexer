@@ -1,6 +1,5 @@
 module SolrIndexer
   class LibGuides < Base
-
     def fetch_records!
       oauth_url = "#{config["url"]}/oauth/token"
       oauth_params = {

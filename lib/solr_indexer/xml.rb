@@ -18,7 +18,7 @@ module SolrIndexer
         end
         @records << record
       end
-      @records 
+      @records
     end
   end
 end

@@ -1,6 +1,7 @@
 module SolrIndexer
   class Staff < Base
     private
+
     def fetch_records!
       @data = JSON.parse(Net::HTTP.get(URI(config["data"])))
 

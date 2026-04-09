@@ -2,10 +2,9 @@ module SolrIndexer
   class Microsites < Base
     def fetch_records!
       response = Faraday.get(config["names"])
-        return unless response.success?
-      names = JSON.parse(response.body).inject({}) do |ret, user|
+      return unless response.success?
+      names = JSON.parse(response.body).each_with_object({}) do |user, ret|
         ret[user.dig("name", 0, "value")] = user.dig("field_user_display_name", 0, "value")
-        ret
       end
       response = Faraday.get(config["sites"])
       return unless response.success?
@@ -20,7 +19,7 @@ module SolrIndexer
           source: "drupal",
           segment: segment,
           ssfield_page_type: "Specialty Sites",
-          status: true,
+          status: true
         }
       end
       sites.each do |site|
@@ -32,7 +31,7 @@ module SolrIndexer
           next unless response.success?
           containers = JSON.parse(response.body)
           containers.each do |container|
-            username = users.find { |u| u["id"] == container["author"]}&.fetch("name", nil)
+            username = users.find { |u| u["id"] == container["author"] }&.fetch("name", nil)
             display_name = names[username] || username
             record = {
               id: container["link"],
@@ -44,7 +43,7 @@ module SolrIndexer
               segment: segment,
               ssfield_page_type: "Specialty Sites",
               status: true,
-              type: type,
+              type: type
             }
             record[:ssfield_author] if display_name
             record[:author] = username if username

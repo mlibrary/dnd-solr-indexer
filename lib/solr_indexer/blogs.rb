@@ -71,8 +71,6 @@ module SolrIndexer
       end
     end
 
-
-
     def fetch_blogs_gateway!
       blogs_url = File.dirname(url)
       response = Faraday.get(blogs_url)
@@ -93,7 +91,7 @@ module SolrIndexer
         segment: segment,
         ssfield_page_type: "Blogs and Blog Posts",
         type: "blog_gateway",
-        type_name: "Blog Gateway",
+        type_name: "Blog Gateway"
       }
     end
 
@@ -118,7 +116,7 @@ module SolrIndexer
           source: "drupal",
           segment: segment,
           important: true,
-          ssfield_page_type: "Blogs and Blog Posts",
+          ssfield_page_type: "Blogs and Blog Posts"
         }
       end
     end

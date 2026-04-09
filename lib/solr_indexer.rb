@@ -20,7 +20,6 @@ module SolrIndexer
   end
 end
 
-
 require_relative "solr_indexer/term"
 require_relative "solr_indexer/nodes"
 require_relative "solr_indexer/literal_field"
