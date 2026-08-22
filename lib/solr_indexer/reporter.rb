@@ -43,6 +43,10 @@ module SolrIndexer
 
     def prom_duration
       <<~PROM
+        # HELP job_last_run_duration_seconds Duration of the job's last run
+        # TYPE job_last_run_duration_seconds gauge
+        job_last_run_duration_seconds#{labels} #{duration}
+
         # HELP solr_indexer_duration_seconds Duration of Solr indexing operations in seconds
         # TYPE solr_indexer_duration_seconds gauge
         solr_indexer_duration_seconds#{labels} #{duration}
@@ -51,6 +55,18 @@ module SolrIndexer
 
     def prom_completed_at
       <<~PROM
+        # HELP job_last_success_timestamp_seconds Timestamp for the job's most recent success in seconds
+        # TYPE job_last_success_timestamp_seconds gauge
+        job_last_success_timestamp_seconds#{labels} #{completed_at}
+
+        # HELP job_last_completion_timestamp_seconds Timestamp for the job's most recent completion in seconds
+        # TYPE job_last_completion_timestamp_seconds gauge
+        job_last_completion_timestamp_seconds#{labels} #{completed_at}
+
+        # HELP job_last_run_success For a job's last run, 0 for failure, 1 for success
+        # TYPE job_last_run_success gauge
+        job_last_run_success#{labels} 1
+
         # HELP solr_indexer_completed_at Timestamp for the most recent successful indexing operation
         # TYPE solr_indexer_completed_at gauge
         solr_indexer_completed_at#{labels} #{completed_at}
