@@ -67,8 +67,8 @@ module SolrIndexer
         # TYPE job_last_run_success gauge
         job_last_run_success#{labels} 1
 
-        # HELP job_success_staleness_threshold_seconds Maximum acceptable time since the job last completed successfully.
-        # TYPE job_success_staleness_threshold_seconds gauge
+        # HELP job_last_success_staleness_threshold_seconds Maximum acceptable time since the job last completed successfully.
+        # TYPE job_last_success_staleness_threshold_seconds gauge
         job_last_success_staleness_threshold_seconds 86400
 
         # HELP solr_indexer_completed_at Timestamp for the most recent successful indexing operation
