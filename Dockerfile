@@ -1,4 +1,4 @@
-FROM ruby:3.4@sha256:f3609abf3177d8e3098a61f9c4594e3dc314195e53e0245882820874d8e18dc8 AS base
+FROM ruby:4.0@sha256:dd87233ce44e8362fed00a1fd590c01e3dd8f8eb0001ea4a2c8a071388e9185b AS base
 
 ARG UNAME=app
 ARG UID=1000
@@ -10,15 +10,21 @@ ENV RAILS_LOG_TO_STDOUT 1
 ENV RAILS_SERVE_STATIC_FILES 1
 ENV APP_HOME ${APP_HOME}
 
-
 #Create the group for the user
-RUN groupadd -g ${GID} -o ${UNAME}
-
 #Create the User and assign /app as its home directory
-RUN useradd -m -d ${APP_HOME} -u ${UID} -g ${GID} -o -s /bin/bash ${UNAME}
+RUN groupadd -g ${GID} -o ${UNAME} \
+ && useradd -m -d ${APP_HOME} -u ${UID} -g ${GID} -o -s /bin/bash ${UNAME} \
+ && mkdir -p ${BUNDLE_PATH} ${APP_HOME} \
+ && chown ${UID}:${GID} ${BUNDLE_PATH} ${APP_HOME}
 
-RUN mkdir -p ${BUNDLE_PATH} ${APP_HOME} && chown ${UID}:${GID} ${BUNDLE_PATH} ${APP_HOME}
+RUN apt-get update \
+ && apt-get upgrade -y \
+ && apt-get autoremove \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/*
+
 WORKDIR $APP_HOME
+
 USER $UNAME
 
 FROM base AS development
