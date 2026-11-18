@@ -115,9 +115,14 @@ staff:
   - type: concat
     args:
     - name
-    - - id
-      - url
+    - - url
     - https://www.lib.umich.edu/users/
+
+  - type: concat
+    args:
+    - name
+    - - id
+    - www.lib.umich.edu--users--
 
   - type: taxonomy_name
     args:

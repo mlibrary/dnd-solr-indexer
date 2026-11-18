@@ -3,7 +3,7 @@ module SolrIndexer
     def fetch_records!
       JSON.parse(Faraday.get(config["url"]).body).each do |record|
         records << {
-          id: record["url"],
+          id: record["url"].sub('https://', '').gsub('/', '--'),
           url: record["url"],
           title: record["title"],
           og_groups_both: record["tags"],

@@ -50,7 +50,7 @@ module SolrIndexer
             title: title,
             ssfield_date: pub_date,
             ssfield_author: creator,
-            id: link,
+            id: link.sub('https://', '').gsub('/', '--'),
             url: link,
             status: true,
             promote: true,
@@ -79,7 +79,7 @@ module SolrIndexer
       content = doc.xpath("//meta[@property='og:description']").first.attr("content").to_s
       records << {
         title: title,
-        id: blogs_url,
+        id: blogs_url.sub('https://', '').gsub('/', '--'),
         url: blogs_url,
         status: true,
         promote: true,
@@ -104,7 +104,7 @@ module SolrIndexer
 
         records << {
           title: title,
-          id: blog_url,
+          id: blog_url.sub('https://', '').gsub('/', '--'),
           url: blog_url,
           status: true,
           promote: true,

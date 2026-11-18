@@ -33,7 +33,7 @@ module SolrIndexer
           .map { |metadata| metadata["content"] }
         base_id = (guide["friendly_url"] && guide["friendly_url"].length > 0) ? guide["friendly_url"] : guide["url"]
         base = {
-          id: base_id,
+          id: "libguides-guide-#{guide["id"]}",
           url: base_id,
           entity_id: guide["id"],
           body: guide["description"],
@@ -71,7 +71,7 @@ module SolrIndexer
         guide["pages"].each do |page|
           next if page["enable_display"] == "0"
           p = base.clone
-          p[:id] = "#{base[:entity_id]}_#{page["id"]}"
+          p[:id] = "libguides-guide-#{base[:entity_id]}-page-#{page["id"]}"
           p[:url] = page["friendly_url"] || page["url"]
           p[:source] = "libguides-page"
           p[:ssfield_page_title] =

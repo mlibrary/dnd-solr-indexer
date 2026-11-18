@@ -11,7 +11,7 @@ module SolrIndexer
       sites = JSON.parse(response.body)
       sites.each do |record|
         records << {
-          id: record["url"],
+          id: record["domain"],
           url: record["url"],
           title: record["name"],
           teaser: record["description"],
@@ -34,7 +34,7 @@ module SolrIndexer
             username = users.find { |u| u["id"] == container["author"] }&.fetch("name", nil)
             display_name = names[username] || username
             record = {
-              id: container["link"],
+              id: site["domain"] + "--" + container["slug"],
               url: container["link"],
               title: container["title"]["rendered"],
               teaser: SolrIndexer.strip_html_tags(container["excerpt"]["rendered"]),

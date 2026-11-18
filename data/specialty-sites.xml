@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <add>
   <doc>
-    <field name="id">https://sali.lib.umich.edu/dashboard</field>
+    <field name="id">sali.lib.umich.edu--dashboard</field>
     <field name="content">Request an Instruction Session The University Library has a variety of instructional offerings at all levels of research experience and for all subjects. instruction form request instruction workshops instruction session sali</field>
     <field name="title">Request an Instruction Session</field>
     <field name="url">https://sali.lib.umich.edu/dashboard</field>
@@ -19,7 +19,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://lib.mivideo.it.umich.edu</field>
+    <field name="id">lib.mivideo.it.umich.edu</field>
     <field name="content">Library MiVideo  mivideo video</field>
     <field name="title">Library MiVideo</field>
     <field name="url">https://lib.mivideo.it.umich.edu</field>
@@ -37,7 +37,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/reflection-rooms</field>
+    <field name="id">www.lib.umich.edu--visit-and-study--cafes-and-wellbeing--reflection-rooms</field>
     <field name="content">Reflection Room Floor Plans Reflection Room locations in library buildings reflection room reflection reflect pray prayer meditate meditation</field>
     <field name="title">Reflection Room Floor Plans</field>
     <field name="url">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/reflection-rooms</field>
@@ -55,7 +55,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/lactation-rooms</field>
+    <field name="id">www.lib.umich.edu--visit-and-study--cafes-and-wellbeing--lactation-rooms</field>
     <field name="content">Lactation Room Floor Plans Lactation Room locations in library buildings lactation room lactation breastfeeding new mothers</field>
     <field name="title">Lactation Room Floor Plans</field>
     <field name="url">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/lactation-rooms</field>
@@ -73,7 +73,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://www.lib.umich.edu/about-us/about-library</field>
+    <field name="id">www.lib.umich.edu--about-us--about-library</field>
     <field name="content">About the Library Our mission is to support, enhance, and collaborate in the instructional, research, and service activities of ... mission about</field>
     <field name="title">About the Library</field>
     <field name="url">https://www.lib.umich.edu/about-us/about-library</field>
@@ -91,7 +91,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://www.lib.umich.edu/find-borrow-request/borrow-and-return/where-return-items</field>
+    <field name="id">www.lib.umich.edu--find-borrow-request--borrow-and-return--where-return-items</field>
     <field name="content">Return Locations Material return locations for all U-M campuses return a book, bookdrop, book drop, dropbox, drop box</field>
     <field name="title">Return Locations</field>
     <field name="url">https://www.lib.umich.edu/find-borrow-request/borrow-and-return/where-return-items</field>
@@ -109,7 +109,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://apps.lib.umich.edu/online-exhibits</field>
+    <field name="id">apps.lib.umich.edu--online-exhibits</field>
     <field name="content">Online exhibits Explore and discover inspiring collections of art, literature, culture, and history! online exhibits</field>
     <field name="title">Online exhibits</field>
     <field name="url">https://apps.lib.umich.edu/online-exhibits</field>
@@ -127,7 +127,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://www.lib.umich.edu/research-and-scholarship/help-research/find-specialist</field>
+    <field name="id">www.lib.umich.edu--research-and-scholarship--help-research--find-specialist</field>
     <field name="content">Subject Specialists Subject specialists offer consultation appointments to learn about the resources and research strategies available to your field</field>
     <field name="title">Subject Specialists</field>
     <field name="url">https://www.lib.umich.edu/research-and-scholarship/help-research/find-specialist</field>
@@ -145,7 +145,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://umich.qualtrics.com/jfe/form/SV_bJkZaJaaCP6w7Hw</field>
+    <field name="id">umich.qualtrics.com--jfe--form--SV_bJkZaJaaCP6w7Hw</field>
     <field name="content">The Goldilocker Tool - Topic Narrowing Developing a Research Question Developing Research Question Develop a topic that's just right for you</field>
     <field name="title">The Goldilocker Tool - Develop a topic that's just right for you</field>
     <field name="url">https://umich.qualtrics.com/jfe/form/SV_bJkZaJaaCP6w7Hw</field>
@@ -163,7 +163,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/changing-tables</field>
+    <field name="id">www.lib.umich.edu--visit-and-study--cafes-and-wellbeing--changing-tables</field>
     <field name="content">Changing Table Floor Plans Changing table locations in library building restrooms. changing table, changing station, diaper table, baby care, infant care</field>
     <field name="title">Changing Table Floor Plans</field>
     <field name="url">https://www.lib.umich.edu/visit-and-study/cafes-and-wellbeing/changing-tables</field>
@@ -181,7 +181,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://medicaldictionary.lib.umich.edu/</field>
+    <field name="id">medicaldictionary.lib.umich.edu</field>
     <field name="content">Plain Language Medical Dictionary The Plain Language Medical Dictionary widget is a project of the University of Michigan Taubman Health Sciences Library as part  plain language medical dictionary</field>
     <field name="title">Plain Language Medical Dictionary</field>
     <field name="url">https://medicaldictionary.lib.umich.edu/</field>
@@ -199,7 +199,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://www.lib.umich.edu/collections/collecting-areas/special-collections/joseph-labadie-collection</field>
+    <field name="id">www.lib.umich.edu--collections--collecting-areas--special-collections--joseph-labadie-collection</field>
     <field name="content">Labadie Collection Finding Aids and Indexes</field>
     <field name="title">Labadie Collection Finding Aids and Indexes</field>
     <field name="url">https://www.lib.umich.edu/collections/collecting-areas/special-collections/joseph-labadie-collection</field>
@@ -217,7 +217,7 @@
     <field name="ssfield_page_type">Specialty Sites</field>
   </doc>
   <doc>
-    <field name="id">https://teamdynamix.umich.edu/TDClient/88/Portal/Portal/Desktop/Desktop?Q=y3twZqQd~tVm3YpDhG4AcbqIv3IL~0FjNwBkVUN3-k6Op9vuhS3kfw__</field>
+    <field name="id">teamdynamix.umich.edu--TDClient--88--Portal--Portal--Desktop--Desktop_Q_y3twZqQd~tVm3YpDhG4AcbqIv3IL~0FjNwBkVUN3-k6Op9vuhS3kfw__</field>
     <field name="content">Outages Library Outages keeps you informed of unexpected problems and planned maintenance affecting library services service outages</field>
     <field name="title">Outages</field>
     <field name="url">https://teamdynamix.umich.edu/TDClient/88/Portal/Portal/Desktop/Desktop?Q=y3twZqQd~tVm3YpDhG4AcbqIv3IL~0FjNwBkVUN3-k6Op9vuhS3kfw__</field>
